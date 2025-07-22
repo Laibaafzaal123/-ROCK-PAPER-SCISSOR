@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1> ~✊ ROCK PAPER & SCISSOR ✌️</h1>
+    
+    <div class="buttons-container">
+      <button onclick="userChoice='rock'; playGame()">👊</button>
+      <button onclick="userChoice='paper'; playGame()">✌️</button>
+      <button onclick="userChoice='scissors'; playGame()">✋</button>
+    </div>
+
+    <div id="result"></div>
+    <div id="score">Score: You - 0, Computer - 0</div>
+  </div>
+  <!--is HTML section me Rock Paper Scissors game ka visual aur interactive layout banaya gaya hai jahan user buttons click karke game khel sakta hai. Sabse pehle <h1> tag se "Rock Paper Scissors" title show kiya jata hai jo user ko batata hai ye game kis cheez ka hai. Uske baad 3 alag <button> elements diye gaye hain — har button ek emoji ke zariye ek option ko represent karta hai: 👊 rock, ✌️ paper, aur ✋ scissors. Jab user kisi bhi button pe click karta hai, to onclick attribute ke through JavaScript ka code activate hota hai. Us moment pe userChoice variable ko us button ka relevant value assign hoti hai (e.g., 'rock', 'paper', 'scissors'), aur playGame() function call hota hai.
+
+playGame() function JavaScript me likha hota hai, aur ye function ka kaam hota hai game ka logic chalana — jaise ke computer ka random choice nikalna (Math.random() ke zariye), dono choices ka comparison karna, result banana (win, lose ya tie), aur phir us result ko screen pe dikhana. Ye result show hota hai ek empty <div> me jiska id="result" hai. JavaScript is div me .innerHTML use karke result message likhta hai, jaise: "You win!", "It's a tie!" ya "Computer wins!"
+
+Uske baad ek aur <div> diya gaya hai jiska id="score" hai — ye user aur computer dono ka live score dikhata hai. JavaScript is score ko har round ke baad update karti hai jab koi jeet ya haar hoti hai. Start me score "You - 0, Computer - 0" hota hai, lekin jaise jaise game chalta hai, userScore++ ya computerScore++ ke through ye number update hota rehta hai.
+
+-->
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background-image: url('870316-video-game-backgrounds-1920x1080-for-xiaomi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main Container */
+  .game-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+    color: #fff;
+    width: 90%;
+    max-width: 500px;
+    backdrop-filter: blur(8px);
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    color: #4f9adb;
+    text-shadow: 2px 2px 8px black;
+  }
+  
+  /* Buttons Styling */
+  button {
+    padding: 15px 25px;
+    font-size: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #00bcd4;
+    color: white;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+  
+  button:hover {
+    background-color: #8fd2d9;
+    transform: scale(1.1);
+  }
+  
+  #result {
+    font-size: 24px;
+    margin-top: 20px;
+    min-height: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 4px black;
+  }
+  
+  #score {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #465ed3;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px #000;
+  }
+  
+  
