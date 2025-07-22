@@ -1,2 +1,1 @@
-    ~ 
-    !!!!
+    ~ MAKING A GAME LIKE ROCK PAPER & SCISSOR IN JAVASCRIPT !!!
